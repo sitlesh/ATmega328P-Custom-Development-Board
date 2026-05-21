@@ -31,6 +31,6 @@ The board breaks out all digital and analog pins of the ATmega328P microcontroll
 <img width="2248" height="1654" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/a598e82d-b49f-4e3f-8227-e199580887b5" />
 
 ## 📂 Repository Structure
-* `/Gerber.zip`: Contains the fabrication files (.gbr and .drl zip) ready for manufacturing.
-* `*.ATmega controller board.kicad_sch`: Schematic file.
-* `*.ATmega controller board.kicad_pcb`: PCB layout routing.
+* `Gerber.zip`: Contains the fabrication files (.gbr and .drl zip) ready for manufacturing.
+* `ATmega controller board.kicad_sch`: Schematic file.
+* `ATmega controller board.kicad_pcb`: PCB layout routing.
