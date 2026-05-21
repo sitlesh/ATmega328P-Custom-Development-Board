@@ -19,11 +19,18 @@ The board breaks out all digital and analog pins of the ATmega328P microcontroll
 * **Track Widths:** * Signal Lines: 0.25mm - 0.3mm
   * Power Lines (VCC/GND): 0.5mm - 0.6mm (Optimized for trace current density)
 
-## 📸 3D Render Preview
+## 🛠️ Visuals & Design Layout
+### 1. 📸 3D Render Preview
 <img width="3450" height="1886" alt="ATmega controller board" src="https://github.com/user-attachments/assets/8a147d75-6841-4bfe-bad3-aa8b877fb6de" />
 
+### 2. PCB Layout (Top & Bottom Layers)
+#### Top Layer Layout
+<img width="2245" height="1691" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/9c8a8b24-557e-4ddd-8fbe-88ac15985a18" />
+
+#### Bottom Layer Layout
+<img width="2248" height="1654" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/a598e82d-b49f-4e3f-8227-e199580887b5" />
 
 ## 📂 Repository Structure
-* `/Gerber_Files`: Contains the fabrication files (.gbr and .drl zip) ready for manufacturing.
-* `*.kicad_sch`: Schematic file.
-* `*.kicad_pcb`: PCB layout routing.
+* `/Gerber.zip`: Contains the fabrication files (.gbr and .drl zip) ready for manufacturing.
+* `*.ATmega controller board.kicad_sch`: Schematic file.
+* `*.ATmega controller board.kicad_pcb`: PCB layout routing.
