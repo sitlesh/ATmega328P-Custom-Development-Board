@@ -30,7 +30,13 @@ The board breaks out all digital and analog pins of the ATmega328P microcontroll
 #### Bottom Layer Layout
 <img width="2248" height="1654" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/a598e82d-b49f-4e3f-8227-e199580887b5" />
 
-## 📂 Repository Structure
-* `Gerber.zip`: Contains the fabrication files (.gbr and .drl zip) ready for manufacturing.
-* `ATmega controller board.kicad_sch`: Schematic file.
-* `ATmega controller board.kicad_pcb`: PCB layout routing.
+## 📁 Repository Structure
+
+This repository contains all the native design assets and manufacturing files required to replicate or modify this project.
+
+### 🛠️ Core EDA Design Files (KiCad)
+* **[`ATmega controller board.kicad_sch`](./ATmega%20controller%20board.kicad_sch)** - Schematic capture showing the ATmega328P microcontroller core, LM7805 voltage regulation circuit, decoupling networks, and crystal loading capacitors.
+* **[`ATmega controller board.kicad_pcb`](./ATmega%20controller%20board.kicad_pcb)** - Physical PCB layout featuring optimized signal trace routing, 45° angles, and solid ground planes.
+
+### 📦 Manufacturing & Fabrication Outputs
+* **[`Gerber.zip`](./Gerber.zip)** - Production-ready manufacturing package containing all necessary layers (Copper, Solder Mask, Silkscreen) and NC Drill files, ready to upload directly to JLCPCB, PCBWay, etc.
