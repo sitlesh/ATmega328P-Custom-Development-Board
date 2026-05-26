@@ -37,6 +37,7 @@ This repository contains all the native design assets and manufacturing files re
 ### 🛠️ Core EDA Design Files (KiCad)
 * **[`ATmega controller board.kicad_sch`](./ATmega%20controller%20board.kicad_sch)** - Schematic capture showing the ATmega328P microcontroller core, LM7805 voltage regulation circuit, decoupling networks, and crystal loading capacitors.
 * **[`ATmega controller board.kicad_pcb`](./ATmega%20controller%20board.kicad_pcb)** - Physical PCB layout featuring optimized signal trace routing, 45° angles, and solid ground planes.
+* **[`ATmega controller board.kicad_pro`](./ATmega%20controller%20board.kicad_pro)** - KiCad project management file.
 
 ### 📦 Manufacturing & Fabrication Outputs
 * **[`Gerber.zip`](./Gerber.zip)** - Production-ready manufacturing package containing all necessary layers (Copper, Solder Mask, Silkscreen) and NC Drill files, ready to upload directly to JLCPCB, PCBWay, etc.
